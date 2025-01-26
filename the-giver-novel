@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Living without Emotions: Reflecting a World from "The Giver"</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">
+            <h1>Living without Emotions: Reflecting a World from "The Giver"</h1>
+            <p class="author-info">By Zayn</p>
+        </div>
+
+        <div class="article-content">
+            <h2>Introduction</h2>
+            <p>You might have heard this phrase: <strong>"Your emotions are ruining you. Be more practical. Don’t get swayed by how you feel."</strong> There’s this constant pressure to suppress emotions, to focus solely on logic, and to avoid the chaos that feelings can bring. But then, I found something—a story, a world, a reality that’s different. I recently came across a novel which made me think deeply about this idea of emotions, so let me tell you this story of a utopian world.</p>
+
+            <h2>The World of <i>The Giver</i></h2>
+            <p>Think of a world where your whole life is predetermined. There are no surprises, no unexpected turns. From the moment you're born, you are assigned a role, a job, and even a family. <strong>Emotions? Not allowed. Pain? Erased.</strong> All are required to comply with the rules of society without questioning them. This is the reality that Jonas, the protagonist, is born into.</p>
+
+            <p>Jonas is a young boy about to turn twelve. During the <strong>Ceremony of Twelve</strong>, each child is assigned their life’s work. Jonas, unlike the others, is given a special role—he is to become the Receiver of Memory, a position no one in the society really understands. The Receiver's training starts with an old man, the current Receiver, known as The Giver. As Jonas starts to learn what his role involves, he is introduced to memories of a time before the community’s strict rules were put in place. These memories are full of color, love, joy, and yes—pain.</p>
+
+            <h2>The Price of a Controlled World</h2>
+            <p>Through these memories, Jonas discovers happiness, sorrow, fear, and desire. For the first time, he experiences what it is to actually live—with a history and what living really means. However, in the external reality that surrounds him, regulated and emotionless, this is a threat. What if the citizens of the society were to experience these sentiments? Could they live without the anesthetizing feeling of mastery which has sustained them <strong>"as safe as possible"?</strong></p>
+
+            <p><strong>Release</strong>, a quite passivated end to human life, turns out to be euthanasia. The people he cares for do not know the real price of the society's managed life. Jonas realizes that to live in such a world—without choice, without love, and without the full range of human emotions—would be to lose everything that makes life worth living.</p>
+
+            <h2>The Climax</h2>
+            <p>Jonas decides to leave the community, seeking the unknown and hoping to find a world where emotions are allowed, where people are free to feel and experience life as it truly is—pain, joy, love, and all.</p>
+
+            <h2>Conclusion</h2>
+            <p>The story shows that a life without emotions, without surprises, is a life devoid of depth. There is artificial, regulated, and superficial happiness that the society wants. Really, only when Jonas learns the price of love and loss and the experience of true freedom does he realize the price of living in a world without genuine emotions.</p>
+
+            <p>But here in our society, only two things have utmost value: <strong>money or fame.</strong> That’s what this novel's world believes, so it removed the stone called Emotion from its path.</p>
+
+            <p>I, for one, don’t think so. Emotions, the surprises life throws at us, and the connections we form with others—they are the heartbeat of human existence. They push us, they transform us, and they make us who we are. Although it can appear utopian in many ways, the not-knowing and the possibility of change are what make life worth living.</p>
+
+            <p>What about you? Do you agree with the author's vision of a controlled, emotionless world? Or would you rather dive into the mud and grace of a world of emotion, surprise, and the uncertainty of life? Do tell me.</p>
+
+            <p>Stay Safe, Read Something—Allah-Hafiz</p>
+        </div>
+
+<div class="navigation">
+            <a href="myself.html">Previous Article</a>
+            <a href="https://zimaamzayn.us.kg">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <i style="font-size:24px" class="fa"></i> zayn123@duck.com |
+            <a href="https://instagram.com/zimaamzayn">
+                <i style="font-size:24px" class="fa"></i> Instagram</a> | <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+
+</html>
