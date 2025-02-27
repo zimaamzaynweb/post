@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Are You Addicted to Others? - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">
+            <h1>Are You Addicted to Others?</h1>
+            <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+          
+            <h2>Introduction</h2>
+              <p>Recently, while working on a project with my cousin, he suddenly asked, “Aren’t you bored?” I was feeling drained, so he brought me some cold coffee, turned on the TV, and said, “What do you want to watch? Let’s just pass the time.”</p>
+
+        <p>I glanced at him and replied, “I want to sleep.” Then, I headed to my room. But as I lay there, I started to ponder—why do we fear boredom so much? Why do we constantly seek something to fill the quiet moments?</p>
+
+        <p>We're trying to escape ourselves, not just boredom. We don't just kill time; we flee from it. We dread the day when nothing will stop us from thinking for ourselves.</p>
+
+        <blockquote>
+            <p><em>“We are not afraid of being alone, we are afraid of facing our thoughts in solitude.”</em></p>
+            <footer>— Friedrich Nietzsche</footer>
+        </blockquote>
+
+        <p>We are afraid of what silence might reveal, which is why we crave company, noise, and distractions rather than because we actually need them.</p>
+
+        <h2>What is Pleasure, Really?</h2>
+
+        <p>Pleasure, at its core, is about fulfillment—the profound satisfaction that arises from achieving, creating, or understanding something significant. It should serve as the reward for our efforts, not a means of escaping them.</p>
+
+        <p>But in today’s world? Enjoyment has taken over. It is now a source of distraction rather than a source of fulfilment. In order to avoid facing what really matters, we find ourselves pursuing short-lived entertainment, aimless scrolling, and pointless conversations rather than working towards our goals.</p>
+
+        <h2>The Real Cost of This Life</h2>
+
+        <blockquote>
+            <p><em>“The amount of life you give up for anything is its price.”</em></p>
+            <footer>— Henry David Thoreau</footer>
+        </blockquote>
+
+        <p>Time lost to distraction is equal to time lost to something more significant. Every hour wasted on pointless activities is an hour that could have been used for your goals, your future, or your own growth.</p>
+
+        <p>People often lament about a lack of time, but time isn’t lost—it’s exchanged. The real question is: What are you exchanging it for?</p>
+
+        <h2>Who’s in Control—You or the Tools?</h2>
+
+        <blockquote>
+            <p><em>“Men have become the tools of their tools.”</em></p>
+            <footer>— Henry David Thoreau</footer>
+        </blockquote>
+
+        <p>We believe we’re using social media, entertainment, and technology to simplify our lives, but in truth, they are using us. We've lost control because algorithms, fads, and incessant distractions have influenced our thinking. We are only consuming; we are not really living.</p>
+
+        <p>And the most troubling part? Many people are ensnared without even realizing it.</p>
+
+        <h2>The Age of Petty Pleasure</h2>
+
+        <p>Modern society has developed a dependency on the easiest, cheapest, and most trivial forms of pleasure—short videos, mindless gossip, social media trends, and superficial entertainment. We engage in these diversions because they offer us an escape rather than because they genuinely fulfill us.</p>
+
+        <p>Why do we prefer random entertainers, celebrities, and influencers to our best friends? Why would we rather observe other people's lives than participate in our own? It's easier to consume than to connect, which explains the mental effort required.</p>
+
+        <blockquote>
+            <p><em>“Amusing ourselves to death.”</em></p>
+            <footer>— Neil Postman</footer>
+        </blockquote>
+
+        <h2>The Cycle of Addiction: Why Do We Get Hooked?</h2>
+
+        <p>Addiction is about the patterns we fall into, not just the substances we use. Quick content, trivial entertainment, and social media all work like drugs by releasing dopamine into our brains. A cycle of instant gratification is created by the tiny rush of pleasure that each like, notification, and brief video offers.</p>
+
+        <h2>The Solution: Silence, Selectivity, and Self-Growth</h2>
+
+        <ul>
+            <li><strong>Be Silent</strong> – Embrace boredom. Let yourself think.</li>
+            <li><strong>Keep Fewer Friends</strong> – Not every interaction adds value to your life.</li>
+            <li><strong>Focus on Self-Worth and Personal Greatness</strong> – Instead of feeding yourself endless entertainment, feed your mind.</li>
+        </ul>
+
+        <h2>Conclusion: Pick Meaning Over Distractions</h2>
+
+        <p>It’s easy to get caught up in distractions and shallow entertainment. The tougher choice is seeking meaning—facing yourself and striving for more.</p>
+
+        <p><strong>Embrace boredom. Embrace silence. Seek deeper purpose. Allah-Hafiz!!</strong></p>
+
+ <div class="navigation">
+            <a href="the-unwelcome-guests.html">Previous Article</a>
+            <a href="https://zimaamzayn.us.kg">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <i style="font-size:24px" class="fa"></i> zayn123@duck.com | <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+
+</html>
